@@ -1,0 +1,27 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+}
+
+html.fixed-height
+	position relative
+	height 100%
+	body
+		height 100%
+		.pos
+			&, & .pos-wrapper, & .pos-wrapper .pos-content
+				position relative
+				height 100% !important
+				
+
+for i in range(5, 40, 5)
+	.mt{i}
+		margin-top unit(i, 'px')
+	.mb{i}
+		margin-bottom unit(i, 'px')
+	.t{i}
+		top unit(i, 'px')

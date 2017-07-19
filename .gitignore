@@ -1,0 +1,38 @@
+# Env
+/.env
+/vhost.conf
+
+/zbuild/node_modules
+/frontend/web/assets
+/backend/web/assets
+
+# composer
+/vendor
+composer.phar
+## remove in production!
+composer.lock
+
+# folders
+/storage/web
+
+# IDE
+.idea
+nbproject
+.buildpath
+.project
+.settings
+
+# windows thumbnail cache
+Thumbs.db
+
+# Mac DS_Store Files
+.DS_Store
+
+# phpunit
+phpunit.phar
+/phpunit.xml
+
+# Vagrant
+/.vagrant
+/vagrant.yaml
+.env

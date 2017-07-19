@@ -1,0 +1,221 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+}
+html.fixed-height {
+  position: relative;
+  height: 100%;
+}
+html.fixed-height body {
+  height: 100%;
+}
+html.fixed-height body .pos,
+html.fixed-height body .pos .pos-wrapper,
+html.fixed-height body .pos .pos-wrapper .pos-content {
+  position: relative;
+  height: 100% !important;
+}
+.mt5 {
+  margin-top: 5px;
+}
+.mb5 {
+  margin-bottom: 5px;
+}
+.t5 {
+  top: 5px;
+}
+.mt10 {
+  margin-top: 10px;
+}
+.mb10 {
+  margin-bottom: 10px;
+}
+.t10 {
+  top: 10px;
+}
+.mt15 {
+  margin-top: 15px;
+}
+.mb15 {
+  margin-bottom: 15px;
+}
+.t15 {
+  top: 15px;
+}
+.mt20 {
+  margin-top: 20px;
+}
+.mb20 {
+  margin-bottom: 20px;
+}
+.t20 {
+  top: 20px;
+}
+.mt25 {
+  margin-top: 25px;
+}
+.mb25 {
+  margin-bottom: 25px;
+}
+.t25 {
+  top: 25px;
+}
+.mt30 {
+  margin-top: 30px;
+}
+.mb30 {
+  margin-bottom: 30px;
+}
+.t30 {
+  top: 30px;
+}
+.mt35 {
+  margin-top: 35px;
+}
+.mb35 {
+  margin-bottom: 35px;
+}
+.t35 {
+  top: 35px;
+}
+.mt40 {
+  margin-top: 40px;
+}
+.mb40 {
+  margin-bottom: 40px;
+}
+.t40 {
+  top: 40px;
+}
+
+
+
+fieldset.scheduler-border {
+  border: 1px solid #ddd !important;
+  padding: 0 1.4em 1.4em 1.4em !important;
+  margin: 0 0 1.5em 0 !important;
+}
+legend.scheduler-border {
+  font-size: 1.2em !important;
+  font-weight: normal !important;
+  text-align: left !important;
+}
+legend.scheduler-border {
+  width: inherit;
+/* Or auto */
+  padding: 0 10px;
+/* To give a bit of padding on the left and right */
+  border-bottom: none;
+}
+
+
+.pos-wrapper,
+.sale-create {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background: url("../img/pos.png") repeat;
+}
+.pos-wrapper {
+  position: relative;
+  padding-top: 25px;
+}
+.pos-wrapper .product-filter {
+  position: relative;
+  height: 40px;
+}
+.pos-wrapper .products {
+  position: relative;
+  background: #f8f8f8;
+  border: 1px solid #ddd;
+  margin-top: 20px;
+}
+.pos-wrapper .products .product-outer {
+  position: relative;
+  padding: 10px;
+  height: 450px;
+  overflow-y: auto;
+}
+.pos-wrapper .products .product-outer .product {
+  position: relative;
+  background: #fff;
+  margin: 15px 0;
+  padding: 10px;
+  border-radius: 6px;
+}
+.pos-wrapper .products .product-outer .product .sku,
+.pos-wrapper .products .product-outer .product .name,
+.pos-wrapper .products .product-outer .product .price {
+  display: block;
+}
+.pos-wrapper .products .product-outer .product .sku {
+  font-size: 18px;
+  font-weight: bold;
+}
+.pos-wrapper .products .product-outer .product .name {
+  font-size: 24px;
+  font-weight: 100;
+  text-transform: capitalize;
+}
+.pos-wrapper .products .product-outer .product .price {
+  background: #ddd;
+  padding: 8px 12px;
+  font-size: 16px;
+  font-weight: bolder;
+  display: inline-block;
+  border-radius: 6px;
+}
+.pos-wrapper .products .product-outer .product .pos-btn {
+  position: relative;
+}
+
+.pos-interface-outer {
+  position: relative;
+  padding: 20px;
+}
+.pos-interface-outer .pos-interface {
+  position: relative;
+  height: 550px;
+  border: 2px solid #ddd;
+  widht: 100%;
+  background: rgba(255,255,255,0.8);
+  border-radius: 5px;
+}
+.pos-interface-outer .pos-interface .pos-actions {
+  position: relative;
+  height: 50px;
+  background: #fff;
+  padding: 8px;
+  border-radius: 5px 5px 0 0;
+  border-bottom: 2px solid #ddd;
+}
+.pos-interface-outer .pos-interface .pos-outer {
+  position: relative;
+  background: #f2f2f2;
+  height: 450px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 8px;
+}
+.pos-interface-outer .pos-interface .pos-items {
+  position: relative;
+  background: #fff;
+  padding: 10px;
+  height: 380px;
+  overflow-y: auto;
+}
+.pos-interface-outer .pos-interface .pos-items .td-input {
+  width: 50px;
+}
+.total {
+  position: relative;
+  background: #fff;
+  padding: 20px;
+}
+.total h2 {
+  margin-top: 0;
+}

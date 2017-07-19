@@ -1,0 +1,105 @@
+Components of distribution software
+	1)	Sales
+		a) 	Direct Sale
+			-> Cost of goods sold
+					to stock
+		b)	Sales Order
+			-	 If there're no items in the stock, create purchase order automatically.
+		c)	Deliver Order
+			-	If there is less stock than required. Deliver available stock.
+		d)	Sales Return
+				-transaction
+							Stock
+		  					To Cost of goods sold
+		  	- credit memo
+		  		creates a receiveables
+		  		
+
+	2)	Purchases
+		a)	Purchase Return
+		b)	Total Purchases in months/weeks or dayss
+		c) 	Total Purchases from specific Supplier
+
+	3)	Customers
+		a)	Profit from each customer
+		b)	Recieveables from each customer
+		c)	Customer groups
+		d)	Credit Limit
+
+	4)	Suppliers
+		a)	Payables
+		b)	Total Paid between two periods
+		d)	Credit Limit
+	5)	Products
+		a)	Pricing
+			i) 		LIFO
+			ii)		FIFO
+		b)	Discounts
+		c) 	Price Book
+			-	For all customers
+			-	For groups
+			- For locations
+			- For one customer
+		d)	
+
+	6)	Units
+			a) Types
+					- Other
+						pc = piece
+					-	Time
+						- day
+						-	month
+						- week
+						- year
+						- half year
+						-	half month
+					-	Length
+						-	CM - centimeter
+						-	ft -	
+						-	Km
+						-	M - miles
+
+					- Area
+						-	 sqcm - square centimeter
+						-  sqft - foot
+						-		sqin - inch
+						-		sqmm		- square milimetter
+						-		sqmt -	square meter
+						-		sqyd - = yard
+					-	Weight
+						- gram
+						- kg
+						- lb - pound
+						- 
+					-	Volume
+						-	cubic cm
+						-	cuibic ft 
+						-	cubic in
+						-	cubic mm
+						-	cubic mt - cubic meter
+
+
+
+	6) 	Employee Management
+		i)		Payroll
+		ii)		Timesheet
+		iii)	Payables
+		iv)		Expenses
+
+	7)	Payments
+		i)		Credit
+		ii)		Cash
+
+
+
+
+
+	Things to do:
+		PRINT PDF DIRECTLY
+
+
+
+
+settings:
+	i) 		multiple stores.
+	ii)		

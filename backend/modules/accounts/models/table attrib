@@ -1,0 +1,17 @@
+transactions
+	mode
+	type
+	group
+	approved_at
+	approved_by
+
+
+accounts:
+	group_id
+
+
+3		
+	deleted_at
+	deleted_by
+
+
